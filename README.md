@@ -16,7 +16,7 @@ Each case demonstrates triage, analysis, and containment recommendations followi
 - 🟦 **IBM QRadar** — SIEM alert correlation and offense triage  
 - 🟧 **Splunk** — log analysis and search queries  
 - 🟥 **Suricata** — IDS/IPS alert detection  
-- 🟨 **VirusTotal, Talos, AbuseIPDB** — threat intelligence enrichment  
+- 🟨 **VirusTotal, Talos, Cencys, GreyNoise, AbuseIPDB** — threat intelligence enrichment  
 - 🟩 **MITRE ATT&CK** — technique mapping and classification  
 
 ---
