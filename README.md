@@ -25,13 +25,6 @@ Each case demonstrates triage, analysis, and containment recommendations followi
 |-----------|--------------|-------|----------------|
 | **ColdFusion-Web-Reconnaissance_QRadar-55269** | Probe for `/CFIDE/componentutils/` suggesting ColdFusion reconnaissance attempt | QRadar, Splunk, Suricata, VirusTotal | T1595.002 (Active Scanning), T1190 (Exploit Public-Facing Application – potential) |
 
----
-
-## 📈 Future Additions
-- Phishing email triage example (with IOC extraction)
-- PowerShell malware analysis lab
-- Scheduled task persistence detection
-- Credential hygiene checklist
 
 ---
 
