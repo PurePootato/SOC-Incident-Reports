@@ -38,4 +38,4 @@ Each case demonstrates triage, analysis, and containment recommendations followi
 ## 👨‍💻 Author
 **Alexander (PurePootato)**  
 Security Operations Center Analyst  
-[LinkedIn](www.linkedin.com/in/alexanderisoev) | [GitHub](https://github.com/PurePootato)
+[LinkedIn](https://www.linkedin.com/in/alexanderisoev/) | [GitHub](https://github.com/PurePootato)
