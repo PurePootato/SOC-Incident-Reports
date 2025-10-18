@@ -26,7 +26,7 @@ Each case demonstrates triage, analysis, and containment recommendations followi
 |-----------|--------------|-------|----------------|
 | 1 | [ColdFusion Reconnaissance](ColdFusion-Reconnaissance.pdf) | Probing `/CFIDE/componentutils/` — ColdFusion reconnaissance (404s observed) | **T1595.002** (Active Scanning) | QRadar, Splunk, Suricata |
 | 2 | [Reflected XSS (SearchPHP)](Reflected-XSS.pdf) | Automated reflected XSS probes via `searchdata` parameter | **T1059.007** (Script) / **T1595** (Recon) | Splunk, Suricata, VirusTotal |
-
+| 3 | [CGI-Bin Shell Execution Attempt](CGI-Bin-Shell-Execution_Attempt-55309.pdf) | Attempted path traversal to execute `/bin/sh` via `/cgi-bin/` (double-encoded payloads observed) | **T1190** (Exploit Public-Facing Application), **T1059.004** (Unix Shell) | QRadar, Suricata, Splunk, VirusTotal |
 
 ---
 
