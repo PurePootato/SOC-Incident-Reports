@@ -28,7 +28,7 @@ Each case demonstrates triage, analysis, and containment recommendations followi
 | 2 | [Reflected XSS (SearchPHP)](Reflected-XSS.pdf) | Automated reflected XSS probes via `searchdata` parameter | **T1059.007** (Script) / **T1595** (Recon) | Splunk, Suricata, VirusTotal |
 | 3 | [CGI-Bin Shell Execution Attempt](CGI-Bin-Shell-Execution-Attempt.pdf) | Attempted path traversal to execute `/bin/sh` via `/cgi-bin/` (double-encoded payloads observed) | **T1190** (Exploit Public-Facing Application), **T1059.004** (Unix Shell) | QRadar, Suricata, Splunk, VirusTotal |
 | 4 | [LFI Probe — /proc/self/environ Reconnaissance](Local-File-Inclusion-(LFI)-Probe.pdf) | Automated probe attempting to read `/proc/self/environ` (environment disclosure / LFI reconnaissance). All observed requests returned HTTP 403. | T1595.002 (Active Scanning), T1083 (File and Directory Discovery) | QRadar, Suricata, Splunk |
-
+| 5 | [SQL Injection Attempt — UNION & Time-Based Blind](sql-injection-union-timebased-blind.pdf) | Automated SQLi attempts against `/admin/update-issue-bookdeails.php` using `UNION SELECT` and `SLEEP(5)` (data exfiltration & time-based blind checks). All observed requests returned HTTP 403. | T1190 (Exploit Public-Facing Application), T1595.002 (Active Scanning) | Suricata, Splunk, QRadar |
 ---
 
 ## 👨‍💻 Author
