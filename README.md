@@ -37,8 +37,7 @@ Each case demonstrates triage, analysis, and containment recommendations followi
 ### EDR Cases (CrowdStrike Falcon)
 | Incident | Description | Tools | MITRE ATT&CK |
 |-----------|--------------|-------|----------------|
-| 1 | [PowerShell Process Injection](CrowdStrike_PowerShell_ProcessInjection.pdf)| Exploitation via PowerShell ExecutionPolicy Bypass → download Start-Hollow.ps1 → process hollowing; EDR blocked and quarantined.  | T1055 (Process Injection), T1059.001 (PowerShell), T1105 (Ingress Tool Transfer)
- |
+| 1 | [PowerShell Process Injection](CrowdStrike_PowerShell_ProcessInjection.pdf)| Exploitation via PowerShell ExecutionPolicy Bypass → download Start-Hollow.ps1 → process hollowing; EDR blocked and quarantined.  | T1055 (Process Injection), T1059.001 (PowerShell), T1105 (Ingress Tool Transfer)|
 ---
 
 ## 👨‍💻 Author
