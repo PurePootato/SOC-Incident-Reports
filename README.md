@@ -4,7 +4,7 @@
 [![Framework](https://img.shields.io/badge/Framework-MITRE%20ATT%26CK-informational)](#)
 [![Certification](https://img.shields.io/badge/Certification-Security%2B-success)](#)
 [![Language](https://img.shields.io/badge/Language-English-darkblue)](#)
-[![Language](https://img.shields.io/badge/Language-English%20%7C%20Russian-darkred)](#)
+
 
 Collection of SOC investigation reports and cybersecurity incident analyses.  
 Each report is sanitized for public sharing and demonstrates hands-on triage, analysis, and containment recommendations.  
