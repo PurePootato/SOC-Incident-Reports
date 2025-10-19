@@ -1,6 +1,6 @@
 # 🛡️ SOC-Incident-Reports
-![Focus](https://img.shields.io/badge/Focus-SOC%20%7C%20SIEM%20%7C%20EDR-critical)
-![Tools](https://img.shields.io/badge/Tools-QRadar%20%7C%20Splunk%20%7C%20CrowdStrike-blueviolet)
+[![Focus](https://img.shields.io/badge/Focus-SOC%20%7C%20SIEM%20%7C%20EDR-critical)](#)
+[![Tools](https://img.shields.io/badge/Tools-QRadar%20%7C%20Splunk%20%7C%20CrowdStrike-blueviolet)](#)
 Collection of SOC investigation reports and cybersecurity incident analyses.  
 Each report is sanitized for public sharing and demonstrates hands-on triage, analysis, and containment recommendations.  
 Tools used: **QRadar, Splunk, Suricata, VirusTotal, MITRE ATT&CK**.
