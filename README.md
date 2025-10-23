@@ -44,6 +44,8 @@ Each case demonstrates triage, analysis, and containment recommendations followi
 | Incident | Description | Tools | MITRE ATT&CK |
 |-----------|--------------|-------|----------------|
 | 1 | [PowerShell Process Injection](CrowdStrike_PowerShell_ProcessInjection.pdf)| Exploitation via PowerShell ExecutionPolicy Bypass → download Start-Hollow.ps1 → process hollowing; EDR blocked and quarantined.  | T1055 (Process Injection), T1059.001 (PowerShell), T1105 (Ingress Tool Transfer)|
+| 2 | [Double-Extension_Dropper_via_Firefox—PowerShell_Bypass.pdf](cases/2025-06-16-invoice-dropper-firefox-powershell.md) | Masqueraded `.pdf.exe` delivered via Firefox → PowerShell `-ExecutionPolicy Bypass`; EDR blocked and quarantined. | T1036, T1059.001, T1105 |
+
 ---
 
 ## 👨‍💻 Author
