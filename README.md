@@ -45,6 +45,7 @@ Each case demonstrates triage, analysis, and containment recommendations followi
 |-----------|--------------|-------|----------------|
 | 1 | [PowerShell Process Injection](CrowdStrike_PowerShell_ProcessInjection.pdf)| Exploitation via PowerShell ExecutionPolicy Bypass → download Start-Hollow.ps1 → process hollowing; EDR blocked and quarantined.  | T1055 (Process Injection), T1059.001 (PowerShell), T1105 (Ingress Tool Transfer) |
 | 2 | [Double-Extension Dropper via Firefox-PowerShell Bypass](./Double-Extension_Dropper_via_Firefox—PowerShell_Bypass.pdf) | Masqueraded `.pdf.exe` delivered via Firefox → PowerShell `-ExecutionPolicy Bypass`; EDR blocked and quarantined. | T1036 (Masquerading), T1059.001 (PowerShell), T1105 (Ingress Tool Transfer) |
+| 3 | [PowerShell ExecutionPolicy Bypass on Server](./PowerShell_ExecutionPolicy_Bypass_on_Server.pdf) | Unsigned PowerShell script executed under Administrator via remote interactive session; blocked and quarantined. | T1059.001 (PowerShell), T1562.001 (Execution Policy Tampering) |
 
 ---
 
